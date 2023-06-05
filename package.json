@@ -9,7 +9,8 @@
     "add:husky-lint-staged": "husky add .husky/pre-commit 'lint-staged'",
     "add:husky-commitlint": "husky add .husky/commit-msg 'npx --no -- commitlint --config .commitlintrc.cjs --edit ${1}'",
     "husky:init": "npx husky-init",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
-    "husky": "^8.0.0",
+    "husky": "^8.0.3",
     "lint-staged": "^13.2.2"
   }
 }

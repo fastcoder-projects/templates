@@ -28,7 +28,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@fastcoder/eslint-config-ts": "^1.0.6",
+    "@fastcoder/eslint-config-ts": "^1.0.7",
     "@vitest/ui": "^0.31.4",
     "consola": "^3.1.0",
     "esbuild": "^0.17.14",

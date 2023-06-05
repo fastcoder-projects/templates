@@ -5,6 +5,5 @@
  * @returns
  */
 export function add(a: number, b: number) {
-  const a: string = a;
   return a + b;
 }

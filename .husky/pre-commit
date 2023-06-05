@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx lint-staged
+echo "开始运行lint-staged"
+
+pnpm run lint-staged
+
+echo "结束运行lint-staged"
